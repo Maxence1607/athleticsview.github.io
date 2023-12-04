@@ -63,16 +63,12 @@
         height: 100%;
     } */
     .showcase{
-    /* width: 100vw;
-    height: 100vh; */
-    /* background: url("https://images.unsplash.com/photo-1620222071550-a5c7f8b600ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMDY4NDIyNA&ixlib=rb-1.2.1&q=80&w=400"); */
-    /* background: url("../images/accueil.jpg") no-repeat center center fixed; */
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/accueil.jpg") no-repeat center center fixed;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/accueil.jpg") no-repeat center center fixed;
+      /* background: url("../images/accueil.jpg") no-repeat center center fixed; */
       background-size:cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     height: 100vh;
     overflow: hidden;
     }
@@ -86,12 +82,18 @@
     }
 
     .content-title h3{
+        height: 100%;
         font-size: 1.2em !important; 
     }
 
     .content-title h1{
+        height: 100%;
         font-size: 3.5em !important; 
     }
+
+    /* .content-title{
+        display: none;
+    } */
     
 } 
 
@@ -160,10 +162,12 @@ body{
 	z-index: 1;
 	height: 100%;
 	width: 100%;
-	top: 0;
+	/* top: 0; */
 	left: 0;
+    bottom: 0;
 	position: absolute;
     background: rgba(0,0,0,0.7);
+    
 }
 
 /* @media screen and (max-width: 500px) { 
@@ -188,9 +192,10 @@ body{
     min-height: 100%; 
 
     /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-    width: auto;
-    height: auto;
-
+    /* width: auto;
+    height: auto; */
+    height: 100%;
+	width: 100%;
     /* Center the video */
     position: absolute;
     top: 50%;
