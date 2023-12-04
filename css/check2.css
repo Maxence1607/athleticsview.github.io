@@ -1,0 +1,48 @@
+.slideshow {
+    height: 150px;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    transform: translate3d(0, 0, 0);
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.move {
+height: 100%;
+transform: translate3d(0, 0, 0);
+display: flex;
+gap: 1rem;
+padding-block: 2rem;
+animation: moveSlideshow 10s linear infinite;
+}
+
+/* .move:nth-child(2) img {
+opacity: 0.4;
+
+} */
+/* .move > img {
+height: 100px;
+width: auto;
+} */
+
+.move img {
+height: 100px;
+width: auto;
+}
+
+.slideshow:hover .move {
+animation-play-state: paused;
+}
+
+@keyframes moveSlideshow {
+0% {
+    transform: translateX(0%);
+}
+100% {
+    transform: translateX(-100%);
+    /*The width of the page needs to be taken into consideration*/
+}
+}
