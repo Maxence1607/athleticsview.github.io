@@ -275,3 +275,70 @@ ul > :first-child {
   vertical-align: top;
   margin-top: 6px;
 }
+
+/*=========================*/
+/* .container {
+  position: relative;
+} */
+
+.top-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+
+/* 
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.vertical-bar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px; 
+  background-color: red; 
+  animation: moveVerticalBar 10s infinite linear; 
+}
+
+@keyframes moveVerticalBar {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%; 
+  }
+}
+
+ */
+ .bgImg {
+  width: 1280px;
+  height: 720px;
+  background: url(../images/original_foot.png) center/cover;
+  position:relative;
+  top:0;
+  left: 280px;
+}
+.bgImg:before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:100%;
+  right:0;
+  bottom:0;
+  background: url(../images/virtual_foot.png) right/auto 100% no-repeat;
+  transition: 3s linear;
+}
+
+.bgImg:hover:before {
+  left: 0;
+}

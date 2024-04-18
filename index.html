@@ -22,19 +22,42 @@
                     </div>
                 </div> -->
 
+            <div class="switch-lang">
+                <div class="current-lang" >
+                    <img src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png" class="lang-flag"/>
+                    <p class="lang-text"> English</p>
+                </div>
+
+                <div class="lang-dropdown" >
+                    <div id="click" class="selecting-lang" onclick="changeLanguage('fr')">
+                        <img src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_France.png" class="lang-flag"/>
+                        <p class="lang-text"> Français</p>
+                
+                    </div>
+
+                    <script type="text/javascript">
+                        document.getElementById("click").onclick = function () {
+                            location.href = "index-french.html";
+                        };
+                    </script>
+
+                </div>
+
+            </div>
+
 
             <ul class="navbar-nav ml-auto topnav">
                 <li class="nav-item active">
-                <a class="nav-link" href="index.html">Accueil</a>
+                <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="french/medias.html">Medias</a>
+                <a class="nav-link" href="english/fastlight.html">FastLight</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="french/clubs.html">Clubs professionnels</a>
+                <a class="nav-link" href="english/adlight.html">AdLight</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="french/contact.html">Nous Contacter</a>
+                <a class="nav-link" href="english/contact.html">Contact Us</a>
                 </li>
             </ul>
             </div>
