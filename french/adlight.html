@@ -14,68 +14,107 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
 
-                <div class="switch-lang">
-                    <div class="current-lang">
+            <div class="switch-lang">
+                <div class="current-lang" >
+                    <img src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_France.png" class="lang-flag"/>
+                    <p class="lang-text"> Français</p>
+                </div>
+
+                <div class="lang-dropdown" >
+                    <div id="click" class="selecting-lang">
                         <img src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_United_Kingdom.png" class="lang-flag"/>
                         <p class="lang-text"> English</p>
+                
                     </div>
-    
-                    <div class="lang-dropdown" >
-                        <div id="click" class="selecting-lang">
-                            <img src="https://cdn2.iconfinder.com/data/icons/world-flag-icons/128/Flag_of_France.png" class="lang-flag"/>
-                            <p class="lang-text"> Français</p>
-                    
-                        </div>
 
-                        <script type="text/javascript">
-                            document.getElementById("click").onclick = function () {
-                                location.href = "../french/products-overview.html";
-                            };
-                        </script>
-
-                    </div>
+                    <script type="text/javascript">
+                        document.getElementById("click").onclick = function () {
+                            location.href = "../english/adlight.html";
+                        };
+                    </script>
 
                 </div>
+            </div> 
 
             <ul class="navbar-nav ml-auto topnav">
                 <li class="nav-item">
-                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../index-french.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="about-us.html">About Us</a>
+                <a class="nav-link" href="fastlight.html">FastLight</a>
                 </li>
                 <li class="nav-item active">
-                <a class="nav-link" href="products-overview.html">Clubs professionnels</a>
+                <a class="nav-link" href="adlight.html">AdLight</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                <a class="nav-link" href="contact.html">Nous contacter</a>
                 </li>
             </ul>
             </div>
         </nav>
+
+        <body>
+            <div class="slideshow">
+                <div class="move">
+                  <img src="../images/nba.png">
+                  <img src="../images/roland_garros.png">
+                  <img src="../images/euroleague.png">
+                  <img src="../images/volley.png">
+                  <img src="../images/wta.jpeg">
+                  <img src="../images/starligue.png">
+                  <img src="../images/betclic_elite.png">
+                  <img src="../images/nfl.png">
+                  <img src="../images/top14.jpeg">
+                  <img src="../images/nhl.jpeg">
+                  <!-- <img src="../images/atp.jpeg">
+                  <img src="../images/ligue1.png"> -->
+                </div>
+                <div class="move">
+                    <img src="../images/nba.png">
+                    <img src="../images/roland_garros.png">
+                    <img src="../images/euroleague.png">
+                    <img src="../images/volley.png">
+                    <img src="../images/wta.jpeg">
+                    <img src="../images/starligue.png">
+                    <img src="../images/betclic_elite.png">
+                    <img src="../images/nfl.png">
+                    <img src="../images/top14.jpeg">
+                    <img src="../images/nhl.jpeg">
+                    <!-- <img src="../images/atp.jpeg">
+                    <img src="../images/ligue1.png"> -->
+                </div>
+              </div>
+        </body>
+
         <div class="main-container">
-            <section class="imagebg space--md section--ken-burns" data-overlay="3">
+            <!--
+            <video width="1280" height="320" controls autoplay loop muted plays-inline class="back-video">
+                <source src="../videos/llull_buzzer.mp4" type=video/mp4>>
+              </video>
+            
+            -->
+
+            <!-- <section class="imagebg space--md section--ken-burns" data-overlay="3">
                 <div class="background-image-holder"> <img alt="background" src="../images/AthleticsView_background.jpg"> </div>
+
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <h1><b>Clubs professionnels</b></h1>
-                            <!--<img alt="trim" src="images/Trim.png">
-                            <h4> Harness the true power of your business data.</h4>-->
                             <a href="products-overview.html#Clubs professionnelsStart" class="block bounce fadein"><img class = "arrow" alt="arrow" src="../images/Arrow.svg"></a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <section id="Clubs professionnelsStart" class="text-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
                             <p  class="lead" style="text-align: center; font-size: 24px;">
-                                We solve problems by first conducting a comprehensive assessment of the specific issue, 
-                                identifying key data sources, and then applying data analytics techniques to extract actionable insights. 
-                                We prioritize practical and actionable solutions that align with our clients' business goals and lead to measurable improvements. 
+                                Chez AthleticsView nous pensons que vos panneaux publicitaires ont droit à une seconde vie. Mieux encore,
+                                nous croyons fermement que c'est à la fin du match qu'ils expriment leur plein potentiel. Grâce à la publicité
+                                virtuelle, on offre la possibilité aux marques d'assorcier leur nom à un moment impactant du sport.
                             </p>
                         </div>
                     </div>
@@ -87,61 +126,91 @@
             
                 <div id="Products" class="container">
                     <div class="cta">
-                        <h2>How we can assist you in your data science journey</h2>
+                        <h2 style="font-weight: bold;">Ce que nous apportons aux marques et aux diffuseurs</h2>
                     </div>
-                    <br><br><br>
+                    <br><br>
                     <div class="row">
 
                         <div class="card mx-auto" style="width: 25rem;">
                             <!--<a href="data-strategy.html"><img src="images/Products/DataStrategyIcon.png" alt="DataStrategyIcon" height = 90px; class="rounded mx-auto d-block"></a>-->
-                            <img src="../images/database.png" alt="DataStrategyIcon" height = 90px; class="rounded mx-auto d-block"/>
-                            <h3 class="card-title text-center">Data Collection</h3>
+                            <img src="../images/simplicity.png" alt="DataStrategyIcon" height = 90px; class="rounded mx-auto d-block"/>
+                            <h3 class="card-title text-center" style="font-weight: 500;">Simplicité</h3>
                             <p class="card-text">
-                                We help our clients to collect data from various sources and record it systematically.
-                                Processes are then deployed to ensure the reliability of the data gathered.
-                                This step is crucial as it is the foundation for evidence-based decision-making.
+                                Notre produit d'insertion de publicités virtuelles au bord du terrain est réalisé grâce à l'IA. Notre processus de création du contenu est
+                                automatisé et n'implique aucun travail supplémentaire de la part du diffuseur.
+                                L'algorithme travaille directement à partir des images diffusées en direct pour les spectateurs.
                             </p>
                         </div>
 
                         <div class="card mx-auto" style="width: 25rem;">
-                            <img src="../images/magnifying_glass.png" alt="DataStrategyIcon" height = 90px; class="rounded mx-auto d-block"/>
-                            <h3 class="card-title text-center">Data Audit</h3>
-                            <p class="card-text">We tailor data strategies to suit each client's specific context, 
-                                unlocking business value by meticulously analyzing their data landscape, implementing AI models, 
-                                and uncovering data-driven opportunities capable of driving profitability, cash flow, and market share growth.
+                            <img src="../images/clients.png" alt="DataStrategyIcon" height = 90px; class="rounded mx-auto d-block"/>
+                            <h3 class="card-title text-center" style="font-weight: 500;"> Clientèle diversifiée </h3>
+                                Le produit que nous proposons présente un intérêt majeur par rapport à la publicité traditionnelle. Il permet de fournir un emplacement publicitaire à un 
+                                un plus large panel de clients. En effet la possibilité d'insérer différentes publicités en fonction de la zone géographique ou du diffuseur induit des coûts 
+                                d'acquisition plus faibles. Par ailleurs l'audience sur les réseaux sociaux étant différente de l'audience du direct, de nouvelles marques
+                                peuvent profiter d'un événement sportif marquant pour vouloir faire leur promotion.
                             </p>
                         </div>
 
                         <div class="card mx-auto" style="width: 25rem;">
-                            <img src="../images/mission.png" alt="Sophia" height = 90px; class="rounded mx-auto d-block"/>
-                            <h3 class="card-title text-center">Mission</h3>
-                            <p class="card-text">We solve the problems submitted by leveraging our expertise in data analysis and machine learning with our clients' domain knowledge.
-                                This involves discussions with key stakeholders to define the problem statement, goals, and desired outcomes. 
-                                It's crucial to align the data science project with the company's strategic goals.
+                            <img src="../images/eclair.png" alt="Sophia" height = 90px; class="rounded mx-auto d-block"/>
+                            <h3 class="card-title text-center" style="font-weight: 500;"> Multiplication de vos revenus </h3>
+                            <p class="card-text">
+                                Pour un même match, le panneau publicitaire peut être vendu plusieurs fois. SI plusieurs marques peuvent apparaître lors du même 
+                                résumé vidéo, il n'est pas rare de créer plusieurs contenus différents du même match (résumé, shorts youtube, top actions etc...).
+                                Chacune de ces vidéos a une audience propre qui, grâce à une publicité ciblée, peut augmenter les revenus des diffuseurs.
                             </p>
                         </div>
 
+                        <!--
                         <div class="card mx-auto" style="width: 25rem;">
                             <img src="../images/team_recruitment.png" alt="DataStrategyIcon" height = 90px; class="rounded mx-auto d-block"/>
-                            <h3 class="card-title text-center">Team Recruitment</h3>
+                            <h3 class="card-title text-center">Recrutement</h3>
                             <p class="card-text">
-                                Recruiting technical talent can be challenging, especially when a company has specific technical requirements or 
-                                faces stiff competition for top candidates.
-                                By understanding the company's technical staffing needs, we are able to narrow down the pool of candidates suited for the position. 
-                                In addition we can, when required, conduct technical interviews to recruit profiles that will match our clients' needs.
+                                Le recrutement de profils techniques peut s'avérer difficile, surtout lorsque l'entreprise a des 
+                                demandes spécifiques ou qu'elle fait face à une forte concurrence pour attirer les meilleurs candidats.
+                                En comprenant les besoins techniques de l'entreprise, nous sommes en mesure de restreindre 
+                                le groupe de candidats adaptés au poste. De plus, nous pouvons également mener les 
+                                entretiens techniques afin de recruter les profils les plus adaptés aux besoins de nos clients.
                             </p>
                         </div>
 
                         <div class="card mx-auto" style="width: 25rem;">
                             <img src="../images/knowledge.png" alt="Hudson" height = 90px; class="rounded mx-auto d-block"/>
-                            <h3 class="card-title text-center">Knowledge Transfer</h3>
-                            <p class="card-text"> We document the entire project, including methodologies, code, and model details.
-                                Knowledge transfer sessions may be conducted to ensure the company's internal teams can maintain and expand upon the solution.
-                                Knowledge transfer is essential for the long-term sustainability and success of data science initiatives within a company.
+                            <h3 class="card-title text-center">Partage de l'information</h3>
+                            <p class="card-text"> Nous documentons l'ensemble du projet, y compris les méthodologies, le code et 
+                                les détails du modèle. Des sessions de partage de connaissances peuvent être organisées pour garantir 
+                                que les équipes internes de l'entreprise puissent entretenir et développer la solution. 
+                                Le partage de connaissances est essentiel pour le succès durable de vos projets.
                             </p>
                         </div>
+                        -->
 
                     </div>
+
+                </div>
+
+                <br>
+                <div id="Products2" class="container">
+                <div class="cta-bitch">
+                    <h3 style="font-weight: bold;"> Un exemple concret de publicité virtuelle </h3>
+                    <p class="card-text"> Mettez la souris sur l'image </p>
+                    
+                </div>
+
+                <!--<img style = "margin-top: 50px;" alt="logo" src="../images/finals.jpg" >-->
+
+                <!-- <div class="container">
+                    <img src="../images/original_foot.png" alt="Image 1" class="bottom-image">
+                    <img src="../images/virtual_foot.png" alt="Image 2" class="top-image">
+                    <div class="vertical-bar"></div>
+                </div> -->
+                
+                <br/><br/>
+                
+                  
+                  
+
                 </div>
 
 
@@ -180,6 +249,10 @@
                     -->
                 
             </section>
+            <div class="bgImg">
+                <!-- <div class="background-image"></div>
+                <div class="moving-bar"></div> -->
+            </div> 
 
             <!--
             <section>
@@ -231,6 +304,8 @@
         <link href="../css/iconsmind.css" rel="stylesheet" type="text/css" media="all" />
         <link href="../css/theme-tangerine.css" rel="stylesheet" type="text/css" media="all" />
         <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" /> -->
+        <link href="../css/check.css" rel="stylesheet" type="text/css" media="all">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700%7CRubik:300,400,500" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
