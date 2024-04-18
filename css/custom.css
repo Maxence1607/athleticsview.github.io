@@ -325,9 +325,8 @@ ul > :first-child {
   height: 720px;
   background: url(../images/original_foot.png) center/cover;
   position:relative;
-  top:0;
-  left: 280px;
 }
+
 .bgImg:before {
   content:"";
   position:absolute;
